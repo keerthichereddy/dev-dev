@@ -21,9 +21,5 @@ if want to merge the branch like if we are in main then we merge releasebranch1 
 
 note: if we are in other repo then we hit (git branch) then it will display only the main branch only. if we enter below command the it will show all branches
 // git branch -r (this command is used to show the remote branch)
-// git branch -a (this command will both in local in remote branch will display)
-
-//git cherry-pick cid (this command is used to merge only some particular file of data to another branch then this command is used)
-// cat filename (it will display the content present inside our file )
-//git checkout -b branchname (by using this command it will create new branch and & wil automatically enter in that new branch)
+// git branch -a (this command will both in local in remote branch will display
 
