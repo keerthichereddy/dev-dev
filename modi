@@ -1,0 +1,29 @@
+BRANCH
+
+//git branch (by click this command it will dispaly list of branch & we also use this command to check the whether the branch is created or not)
+//git branch branchname( this command is used to create the new branch)
+//git checkout branchname (this command is used for to switch to another branch)& (by using the same command we can change branch for which particular branch we need to go)pp
+
+note : what ever the data created in exiting branch it will not be in other branch 
+if we want the data which we created in exiting file to our new branch then we need to use the command:
+*** but we should be in branch the data need to come
+//git merge branchname
+//git branch -d branchname (if we need to delete the branch we should not be in that branch to delete the BN)
+// git push origin branch-name(or) git push path/c-repo branch-name (used to push our branch which is present in localrepo  to cental repo)
+>>>> note :we are doing push for paticular we no need to be in that branch or we may be in that branch it dependences upon our wish.>>>>
+note :
+if want to merge the branch like if we are in main then we merge releasebranch1 in the main branch then we to use the command
+//git merge branchname 
+>>>>>> need click esc :wq!
+//git push 
+// git push -d branchname  (used to delete branch name in local)
+//git push origin -d branchname(used to delete branchname in centralrepo)
+
+note: if we are in other repo then we hit (git branch) then it will display only the main branch only. if we enter below command the it will show all branches
+// git branch -r (this command is used to show the remote branch)
+// git branch -a (this command will both in local in remote branch will display)
+
+//git cherry-pick cid (this command is used to merge only some particular file of data to another branch then this command is used)
+// cat filename (it will display the content present inside our file )
+//git checkout -b branchname (by using this command it will create new branch and & wil automatically enter in that new branch)
+
