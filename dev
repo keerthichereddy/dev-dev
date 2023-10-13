@@ -1,0 +1,22 @@
+TO CREATE MULTIPULE FILE COMMANDS 
+
+//touch filename fn fn fn
+//ls
+//git status
+//git add fn fn fn (or) git add . (or) git add * (or) git .A
+//git status
+//git commit -m "label"
+//git log 
+//git show cid 
+//git reset head fn (for single file need sent sent back from SA to WS)
+// git reset head fn fn fn (or) file * (we are in staging area then need to sent file back to workspace we will use clthis command)
+//git reset --soft cid (we are in local repo then need to sent file back to staging area we will use this command) n*1 
+// git reset --mixed cid(we sending files directly from local repo to workspace) n*1
+---------------------------------------------------
+// git clone repourl (from github account creation)(this command is used for should copy the repo url in the local repo)
+//cd repositoryname (used for to enter into repository)
+// git push (used to push the data for central repository)
+// rm -rf filename (used to delete fn in the centalrepo)
+note:
+same like multipulefiles command we will use this for deleting the repo in the github   
+// git commit -m "label" clear(this command is used to add the file in central repo)
