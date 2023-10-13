@@ -1,0 +1,24 @@
+//git init ---used to instal the int git resporitory
+//git config --global user.name "keerthi"   ( used to configure the name )
+//git config --global user.email "keerthireddychereddy@gmail.com"  ( used to configure the emailid )
+//git config --list  ( used to check whether the configuration done or not )
+
+if we enter the wrong through email and username same command we need to give line 2 & 3 commands.
+
+//git config --global --unset user.name   (used to delete 
+//git config --global --unset user.email         user name & email )
+
+//ls -a (this is used for hidden files or directiors) ---hidden the file which we will save wit .(dot)
+ 
+//touch filename (for create a empty file)
+// ls ( used to check the list)
+note: the below command is used to check the file is it workspace or not
+// git status (used to check on which phase the file is there)
+// git add filename (this command is used to add the file from workspace to staging area) 
+//git commit -m "label" filename(this command is used to add the file from staging area to local repository)  
+note: m -message label: used to specify purpose regrading towards file
+// clear (to clear the screen)
+// git log (used to check file in loacal repo)
+// git show cid ( used to check whether the file is in the local repo)
+// git push (command is used to push to the local reporistory(github))
+// git reset head filename (we are in staging then need to sent file back to workspace we will use this command )
