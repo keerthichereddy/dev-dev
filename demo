@@ -1,0 +1,21 @@
+LOGS COMMANDS:
+//git log ( this command will show logs of oue local repository)
+note :
+like to see last 3 logs we can go for the below command
+// git log -n (this command is used for the latest logs not entire logs)
+// git log --oneline ( the logs will show in the form of single line by using this command)
+//git log --oneline -n (the logs will show in the form of single line with perfered numbers of logs by using this command )
+// git log --author=name (by using this command we can see the specific person logs)
+//git log --author=name --oneline (by using this command we can see the specific person logs with single line)
+//git log --author=name -n(by using this command we can see the specific person logs of like 3,4... n logs)
+//git log --author=name --online -n (by using this command we can see the specific person logs of like 3,4... n logs with single line)
+-----------------------------------------------------
+this commands are for filitering the logs regarding date month year.
+// git log --since=yy.mm.dd  (or) git log --after=yy.mm.dd
+//git log --until=yy.mm.dd   (or)  git log --before=yy.mm.dd
+//git log --after=yy.mm.dd --before=yy.mm.dd (or) git log --since=yy.mm.dd --until=yy.mm.dd
+---------------------------------------------------------------------------
+TIME
+//git log --after="yy.mm.dd 00:00" --before="yy.mm.dd 00:00"(by using command this 
+// git log --grep="label"(this command is used for we can filiter the logs by the commited messages)
+// git log -- file/dir (this command is used for we can know the filename 0r directory who created?)
